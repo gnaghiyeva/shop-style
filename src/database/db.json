@@ -1,0 +1,51 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "layssss",
+      "price": 2,
+      "discountPercentage": 25,
+      "imageURL": "https://images.heb.com/is/image/HEBGrocery/001876605",
+      "unitsInStock": "eating"
+    },
+    {
+      "id": 3,
+      "name": "doritos",
+      "price": 3,
+      "discountPercentage": 25,
+      "imageURL": "https://images.albertsons-media.com/is/image/ABS/970031792?$ng-ecom-pdp-desktop$&defaultImage=Not_Available",
+      "unitsInStock": "eating"
+    },
+    {
+      "id": 4,
+      "name": "chipsim",
+      "price": 1,
+      "discountPercentage": 25,
+      "imageURL": "https://bazarstore.az/2876-home_default/chipsim-pendirli-cipsi-150-gr.jpg",
+      "unitsInStock": "eating"
+    },
+    {
+      "id": 5,
+      "name": "pringles",
+      "price": 2,
+      "discountPercentage": 25,
+      "imageURL": "https://hips.hearstapps.com/hmg-prod/images/pringles-wendys-spicy-chicken-1622133227.jpg",
+      "unitsInStock": "eating"
+    },
+    {
+      "id": 6,
+      "name": "cola",
+      "price": 2,
+      "discountPercentage": 3,
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoZxW_7LjQinwyUMTcAjFTdL1QsppVwhMQ_w&usqp=CAU",
+      "unitsInStock": 3,
+      "isDiscounted": true
+    },
+    {
+      "name": "colaa",
+      "price": "1000",
+      "image": "https://images.heb.com/is/image/HEBGrocery/001876605",
+      "id": "8fc6b3a0-3ac6-4621-a112-5efd4d58f9f8"
+    }
+  ]
+}
