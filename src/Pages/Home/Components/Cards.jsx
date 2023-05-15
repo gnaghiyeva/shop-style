@@ -21,7 +21,7 @@ import Search from './Search';
 
 
 export const Cards = () => {
-  // const {basket,setBasket} = useBasketContext();
+  const {basket,setBasket} = useBasketContext();
   let obj = useBasketContext()
   console.log(obj)
   const [posts,setPosts] = useState([]);
@@ -72,10 +72,10 @@ export const Cards = () => {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        {/* <Button onClick={()=>{setBasket([...basket,post])}} aria-label="add to favorites"
-        > */}
-        <Button onClick={()=>console.log('salam')} aria-label="add to favorites"
+        <Button onClick={()=>{setBasket([...basket,post])}} aria-label="add to favorites"
         >
+        {/* <Button onClick={()=>console.log('salam')} aria-label="add to favorites"
+        > */}
           <FavoriteIcon />
         </Button>
         

@@ -7,9 +7,11 @@ import Edit from "./Pages/Home/Components/Edit";
 import Add from "./Pages/Home/Components/Add";
 import SignIn from "./Components/SignIn";
 import Welcome from "./Components/Welcome";
+import { BasketContextProvider } from "./context/BasketContext";
 function App() {
   return (
     <>
+    <BasketContextProvider>
     <Routes>
       <Route path="/" element={<Home/>}></Route>
       <Route path="/about" element={<About/>}></Route>
@@ -20,7 +22,7 @@ function App() {
       <Route path='/welcome' element={<Welcome/>}></Route>
 
     </Routes>
-    
+    </BasketContextProvider>
     </>
   );
 }

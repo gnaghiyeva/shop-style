@@ -7,9 +7,10 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
+import { useBasketContext } from '../context/BasketContext';
 
 export const Navbar = () => {
-  // const { basket } = useBasketContext();
+  const { basket } = useBasketContext();
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -30,8 +31,7 @@ export const Navbar = () => {
             <li><Link style={{color:'white', textDecoration:'none'}} to='/add'>Add Product</Link></li>
            </ul>
           </Typography>
-          {/* <Button color="success" variant='contained'>favourites <sup style={{fontWeight:'bold',color:'red'}}>{basket.length}</sup></Button> */}
-          <Button color="success" variant='contained'>favourites <sup style={{fontWeight:'bold',color:'red'}}></sup></Button>
+          <Button color="success" variant='contained'>favourites <sup style={{fontWeight:'bold',color:'red'}}>{basket.length}</sup></Button>
           <Button color="inherit"><Link style={{color:'white', textDecoration:'none'}} to='/signin'>Login </Link></Button>
         </Toolbar>
       </AppBar>
